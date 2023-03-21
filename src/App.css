@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #8ecae6;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.CoinInfo {
+  border: 2px solid #ffb703;
+  background-color: #219ebc;
+  width: 15%;
+  margin: 2.5%;
+  display: flex;
+}
+
+.CoinList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icons {
+  margin-top: 2.5%;
+  width: 25%;
+}
+
+li {
+  list-style: none;
+}
