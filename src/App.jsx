@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import viteLogo from '/vite.svg'
 import './App.css'
 import CoinInfo from "./Components/coinInfo";
 import { Input } from "semantic-ui-react";
@@ -18,7 +17,6 @@ function App() {
 
 
   const fetchAllCoinData = async () => {
-    console.log(cryptoURL + API_KEY)
     const response = await fetch(cryptoURL + API_KEY);
     const json = await response.json();
     setList(json)

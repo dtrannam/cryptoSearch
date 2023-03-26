@@ -15,7 +15,6 @@ const CoinInfo = ({ image, name, symbol }) => {
           )
         const json = await response.json();
         setPrice(json)
-        console.log(json);
     }
     
     return (
